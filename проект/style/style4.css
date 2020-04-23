@@ -1,0 +1,98 @@
+
+header div {
+    display: flex;
+    height: 120px;
+}
+header img {
+    height: 90px;
+}
+h1 {
+    display: flex;
+    background: linear-gradient(to right, red, orange, green, cyan, blue, violet);
+    background-size: 400% 400%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: rainbow 20s ease infinite;
+    animation: rainbow 20s ease infinite;
+}
+h1 span{
+    font-size: 70px;
+}
+.menu {
+    list-style: none;
+    display: flex;
+}
+.menu a{
+    color:black;
+    margin: 10px;
+    margin-top:50;
+    display:inline-block; 
+}
+.menu a:hover {
+   text-decoration:none;
+   cursor:pointer;
+}
+img	{
+	height:500px;
+}
+li{
+	font-size:40px
+
+}
+.text {
+    text-shadow: 1px 1px 2px black, 0 0 2em #002863;
+    color: black;
+    font-size: 2em;
+ }
+ .img{
+ 	height:50px;
+ 	cursor:pointer;
+ } 
+ .text{
+    text-align: center;
+
+}
+.lopik{
+    height: 300px;
+}
+.kolpa{
+    height:200px;
+}
+.Clash{
+    height: 300px;
+}
+h3{
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 1px 1px 2px black, 0 0 2em #002863;
+    color: black;
+}
+.mine{
+    height: 250px;
+}
+.kole{
+    height: 200px;
+}
+.col-lg-4{
+    font-size: 20px;
+    text-shadow: 1px 1px 1px black, 0 0 1em #000000;
+    color:black;
+}
+body{
+    background-color:#A7FC4C;  
+}
+.col-lg-12{
+    font-size: 20px;
+    text-shadow: 1px 1px 1px black, 0 0 1em #000000;
+    color:red;
+}
+.sostav{
+    position: center;
+    height: 600px;
+}
+.mol{
+    height: 200px;
+}
+.yila{
+    height: 470px;
+}

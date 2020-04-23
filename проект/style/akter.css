@@ -1,0 +1,104 @@
+a*/* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.clearfix:before,
+.clearfix:after {
+    content:"";
+}
+.clearfix:after {
+    clear:both;
+}
+.clearfix {
+    zoom:1; /* Хак для IE 6 и 7 
+}
+header{
+    background-color:#8300A3;
+    z-index: 1000;
+    position: fixed;
+    width: 100%;
+}
+*/
+header {
+    z-index: 100;
+    position: fixed;
+    background-color: #8300A3;
+    height: 10%;
+    width: 100%;
+}
+.title {
+ 
+
+
+}
+.title a {
+    color: black;
+}
+.title a:hover {
+    text-decoration: none;
+}
+.title img {
+
+float: left;
+        height: 50px;
+        
+        margin-top: 1%;
+
+        margin-left:5%;
+
+     
+
+}
+.menu {
+margin-left: 33%;
+
+}
+.menu a {
+    
+}
+.menu a:hover {
+    
+}
+.social-links {
+     margin:20px 50px;
+    float: right;
+    margin-top: 1%;
+     margin-right: 5%;
+   
+}
+.social-links a {
+    
+   
+    
+}
+.social-links a:hover {
+  
+
+}
+.social-links img {
+    height: 50px;
+    
+    
+
+
+
+}
+.menu img{
+    height: 80px;
+    float:left;
+    margin-top:2%;
+    margin-left:5%;
+}
+.images3{
+ height: 80px;
+    float:left;
+    margin-top:2%;
+    margin-left:5%;   
+}
+
+
